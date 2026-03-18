@@ -1,12 +1,8 @@
-// Dor Mandel;      ID : 315313825
-// Amit Lachmann;   ID : 207448267 
-// -------------------------------------------
+
 #include "Grid.hpp"
 
-//Added for GridPrint:
 #include <iostream>
 #include <iomanip>
-// -------------------------------------------
 
 Grid::Grid()
 {
@@ -114,7 +110,6 @@ void Grid::print(bool showAxes, bool hideShips) const
   // Print each row: row number + cells
   for (int row = 0; row < N; ++row)
   {
-    // setw(*) = prevents misalingments -> make sure there is a space ;
     if(showAxes) cout<<setw(2) <<row<< " | ";
     else cout<< "| ";
 
