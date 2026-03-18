@@ -1,9 +1,6 @@
-// Dor Mandel;      ID : 315313825
-// Amit Lachmann;   ID : 207448267 
-// -------------------------------------------
+
 #include "AiPlayer.hpp"
 #include <cstdlib>      
-// -------------------------------------------
 
 AiPlayer::AiPlayer(const char* name) : Player(name) {}
 
