@@ -1,14 +1,10 @@
-// Dor Mandel;      ID : 315313825
-// Amit Lachmann;   ID : 207448267
-// -------------------------------------------
+
 #include "Player.hpp"
 #include <string.h>
-// -------------------------------------------
+
 
 Player::Player(const char *name)
 {
-    // **************************************
-    // Safety check for null pointer
     if (name)
     {
         playerName = new char[strlen(name) + 1];
@@ -19,7 +15,6 @@ Player::Player(const char *name)
         playerName = new char[8];
         strcpy(playerName, "Unknown");
     }
-    // **************************************
     
     BattleShip *b = new BattleShip();
     Carrier *ca = new Carrier();
@@ -38,7 +33,6 @@ Player::~Player()
     delete[] playerName;
     for (int i = 0; i < NUM_OF_SHIPS; i++)
     {
-        // delete ships[i];
         if (ships[i])
         {
             delete ships[i];
