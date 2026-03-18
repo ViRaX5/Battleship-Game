@@ -1,14 +1,11 @@
-// Dor Mandel;      ID : 315313825
-// Amit Lachmann;   ID : 207448267 
-// ---------------------------------------
+
 #include <iostream>
 #include <cstdlib>   
 #include <ctime>  
-// -------------------------------------------   
+ 
 #include "Game.hpp"
 #include "HumanPlayer.hpp"
 #include "AiPlayer.hpp"
-// -------------------------------------------
 
 int main() {
     // Seed the random number generator for AI placement and moves
