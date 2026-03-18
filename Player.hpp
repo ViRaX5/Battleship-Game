@@ -1,8 +1,6 @@
-// Dor Mandel;      ID : 315313825
-// Amit Lachmann;   ID : 207448267 
-// -------------------------------------------
+
 #pragma once
-// -------------------------------------------
+
 #include "Grid.hpp"
 #include "Ship.hpp"
 #include "BattleShip.hpp"
@@ -10,7 +8,6 @@
 #include "Cruiser.hpp"
 #include "Destroyer.hpp"
 #include "Submarine.hpp"
-// -------------------------------------------
 
 #define NUM_OF_SHIPS 5
 
