@@ -47,5 +47,20 @@ The project is structured around key components such as:
 ## 🚀 How to Run
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/ViRaX5/Battleship-Game.git
+2. Navigate to the project directory:
+   cd Battleship-Game
+3. Compile the project:
+   g++ *.cpp -o battleship
+4. Run the game:
+   ./battleship
+
+📌 Future Improvements
+ - Smarter AI (probability-based targeting)
+ - Graphical user interface (GUI)
+ - Save / load game functionality
+ - Multiplayer over network
+
+👤 Authors
+ - Amit Lachmann
+ - Dor Mandel
