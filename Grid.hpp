@@ -1,24 +1,20 @@
-// Dor Mandel;      ID : 315313825
-// Amit Lachmann;   ID : 207448267
-// -------------------------------------------
+
 #pragma once
-// -------------------------------------------
-// Grid Size: 10 X 10
+
 #define  GRID_X_AXIS_MAX 10
 #define  GRID_Y_AXIS_MAX 10
-//
+
 #define VALID_GRID_INPUT(row, col) ((row >= 0) && (row < GRID_X_AXIS_MAX) && (col >= 0) && (col < GRID_Y_AXIS_MAX))
 
-// -------------------------------------------
+
 #include <iostream>
 #include <exception>
 #include <stdexcept>
 #include <iomanip>
-// -------------------------------------------
+
 // S = Ship
 // X = Hit
 // M = Miss
-// horizontal = 1(Up/Down) : 0(Left/Right) ;
 
 class Grid
 {
