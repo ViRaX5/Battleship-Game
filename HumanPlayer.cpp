@@ -1,13 +1,10 @@
-// Dor Mandel;      ID : 315313825
-// Amit Lachmann;   ID : 207448267 
-// -------------------------------------------
+
 #include "HumanPlayer.hpp"
-// -------------------------------------------
+
 #include <string>
 #include <algorithm>
 #include <cctype>
 #include <iostream>
-// -------------------------------------------
 
 HumanPlayer::HumanPlayer(const char* name) : Player(name){}
 
